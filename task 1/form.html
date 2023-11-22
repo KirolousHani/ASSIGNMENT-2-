@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kirolous</title>
+    <style>
+      /* تنسيق النموذج */
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      /* تنسيق الحقول والتسميات */
+      label,
+      input {
+        display: block;
+        margin-bottom: 10px;
+        
+      }
+      label{
+        text-align: right;
+      }
+
+      /* تنسيق زر الإرسال */
+      button {
+        background-color: #292f5b;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+    </style>
+  </head>
+  <body dir="rtl">
+    <form>
+      <label> اسم الطفل بالكامل</label>
+      <input type="text" />
+    </form>
+
+    <form>
+      <label>الرقم القومي لولي الامر </label>
+      <input type="number" />
+    </form>
+
+    <form>
+      <label>الرقم القومي للطفل</label>
+      <input type="number" />
+    </form>
+
+    <form>
+      <label>النوع</label>
+      <select name="gender">
+        <option value="ذكر">ذكر</option>
+        <option value="أنثى">أنثى</option>
+      </select>
+    </form>
+
+    <form>
+      <label>تاريخ الميلاد</label>
+      <input type="date" />
+    </form>
+
+    <form>
+      <label>السن اول اكتوبر </label>
+      <input type="age" />
+    </form>
+
+    <form>
+      <label> الاقامة</label>
+      <select name="administration">
+        <option value="القاهرة">القاهرة</option>
+        <option value="الإسكندرية">الإسكندرية</option>
+        <option value="الجيزة">الجيزة</option>
+      </select>
+    </form>
+
+    <form>
+      <label> العنوان</label>
+      <input type="text" />
+    </form>
+
+    <form>
+      <label> المحمول</label>
+      <input type="number" />
+    </form>
+
+    <form>
+      <label>التليفون</label>
+      <input type="number" />
+    </form>
+    <form>
+      <h1>التقديم للمدارس التجربية الادارة</h1>
+      <label> الادارة</label>
+      <select>
+        <option hidden>اختر الادارة</option>
+        <option>شرق</option>
+        <option>غرب</option>
+      </select>
+      <br />
+   
+
+    <label> المدرسة</label>
+    <select name="school">
+      <option hidden>اختر المدرسة</option>
+      <option value="مدرسة 1">مدرسة 1</option>
+      <option value="2">مدرسة 2</option>
+    </select> 
+  
+
+    <h1>التقديم للمدارس المستقبل</h1>
+    <label> الادارة</label>
+    <select>
+      <option hidden>اختر الادارة</option>
+      <option>شرق</option>
+      <option>غرب</option></select
+    ><br />
+
+    <label>المدرسة</label>
+    <select name="school">
+      <option hidden>اختر المدرسة</option>
+      <option value="مدرسة 1">مدرسة 1</option>
+      <option value="2">مدرسة 2</option>
+    </select>
+
+    <div class="form-group">
+      <input
+        type="checkbox"
+        class="form-check-input"
+        id="agree"
+        name="agree"
+        value="1"
+      />
+      <label class="form-check-label" for="agree"
+        >أقر بأن جميع البيانات التي تم استيفائها صحيحة وسوف يتم تقديم المستندات
+        الدالة علي صحة البيانات ضمن التقديم وهذا اقرار مني بذلك</label
+      >
+    </div>
+
+    <button>التالي</button><br />
+  </form>
+
+    <a href="./table1.html" target="_blank">Next Task</a>
+  </body>
+</html>
